@@ -31,11 +31,3 @@ db.sqlite3-journal
 *.swp
 *.swo
 *~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Django migrations (optional - uncomment if you want to ignore)
-# */migrations/*.py
-# !*/migrations/__init__.py

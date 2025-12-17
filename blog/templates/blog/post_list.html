@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Sederhana Django</title>
+</head>
+<body>
+    <h1>Blog Saya</h1>
+
+    {% for post in posts %}
+        <article>
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.text }}</p>
+        </article>
+    {% empty %}
+        <p>Belum ada postingan.</p>
+    {% endfor %}
+</body>
+</html>
